@@ -27,6 +27,7 @@ the psfrag documentation.
 %files
 %doc %{_texmfdistdir}/doc/latex/psfrag-italian/itpfgguide.pdf
 %doc %{_texmfdistdir}/doc/latex/psfrag-italian/itpfgguide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -37,3 +38,5 @@ the psfrag documentation.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
