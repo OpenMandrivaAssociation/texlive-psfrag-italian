@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-psfrag-italian
-Version:	20080823
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	PSfrag documentation in Italian
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/italian/psfrag
